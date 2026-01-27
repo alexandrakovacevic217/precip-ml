@@ -1,0 +1,32 @@
+inputs:
+  variables:
+    - ta250
+    - ta500
+    - ta700
+    - ta850
+    - q250
+    - q500
+    - q700
+    - q850
+    - w250
+    - w500
+    - w700
+    - w850
+  n_pcs: 400
+  multi_time: false
+
+target:
+  type: fields
+  n_pcs: 50
+
+time:
+  start: "1979-01-01"
+  end: "2020-12-31"
+
+split:
+  start_year: 1979
+  train_end: 2012
+  val_end: 2016
+  test_end: 2020
+  days_per_year: 365
+
