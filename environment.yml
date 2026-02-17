@@ -1,0 +1,18 @@
+name: precip-ml
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - numpy
+  - pandas
+  - xarray
+  - netcdf4
+  - scipy
+  - matplotlib
+  - cartopy
+  - psutil
+  - tqdm
+  - pyyaml
+  - pip
+  - pip:
+      - tensorflow
