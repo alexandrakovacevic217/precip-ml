@@ -111,7 +111,6 @@ The notebook:
 - Computes evaluation metrics (e.g., spatial and temporal correlation)
 - Produces precipitation maps, scatter plots, and regional analyses
 - Compares the ML reconstruction against the ERA5 baseline
-- 
 ---
 ## Reproducing the Experiments
 
